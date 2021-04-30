@@ -1,3 +1,8 @@
+# Libraries
+import geopandas
+import contextily as ctx
+import matplotlib.pyplot as plt
+
 # Function for choropleth with 2 map layers on top of Contextily basemap
 def makeChoroplethLDN(layer1, layer2, column_name):
     """Takes in two mapping layers as geodataframes: 
